@@ -1,0 +1,160 @@
+.s1 {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.b1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.titulo {
+    color: rgb(8, 102, 47);
+}
+
+.s2 {
+    background-color: rgb(29, 28, 28);
+}
+
+h1 {
+    color: greenyellow;
+}
+
+.m1 {
+    background-color: rgb(0, 0, 0);
+}
+
+
+@media (max-width: 600px) {
+
+    .S1 {
+
+        display: grid;
+        grid-template-columns: auto;
+
+    }
+
+}
+
+@media (max-width: 802px) {
+
+    .S1 {
+
+        display: grid;
+        grid-template-columns: auto auto;
+
+    }
+
+    @media (min-width: 352px) {
+        .b1 {
+            display: grid;
+            grid-template-columns: auto;
+
+        }
+    }
+
+
+}
+
+    .s1 .s2  ul li a {
+        color: rgb(216, 218, 219);
+        text-decoration: none;
+    }
+
+.wrap{
+    width: 80vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(img/david.jpg);
+    opacity: 40%;
+    background-size: cover;
+    background-position: center;
+}
+.wrap-texto{
+    color: aliceblue;
+    text-align: left;
+    width: 50%;
+    font-size: 15px;
+
+}
+.b1 h2{
+    color: rgb(31, 152, 65);
+}
+
+.formulario{
+    width: 300px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial;
+}
+
+.formulario label{
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.formulario input{
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formulario button{
+    margin-top: 15px;
+    padding: 10px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.formulario button:hover{
+    background-color: #0056b3;
+}
+
+.footer{
+    background-color: #222;
+    color: white;
+    padding: 40px 0;
+}
+
+.footer-contenido{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-seccion h3{
+    margin-bottom: 10px;
+}
+
+.footer-seccion ul{
+    list-style: none;
+    padding: 0;
+}
+
+.footer-seccion ul li{
+    margin-bottom: 5px;
+}
+
+.footer-seccion a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-seccion a:hover{
+    text-decoration: underline;
+}
+
+.footer-abajo{
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+}

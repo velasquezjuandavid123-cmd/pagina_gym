@@ -1,0 +1,57 @@
+@media (min-width: 600px) {
+
+  .S1 {
+
+    display: grid;
+    grid-template-columns: auto;
+
+  }
+
+}
+
+@media (min-width: 720px) {
+
+  .S1 {
+
+    display: grid;
+    grid-template-columns: auto auto;
+
+  }
+
+  .me {
+    background-color: rgb(7, 7, 7);
+  }
+
+}
+
+.ho {
+  color: rgb(253, 252, 252);
+}
+
+
+.li {
+  color: aliceblue;
+}
+
+.pu {
+  color: green;
+}
+
+.s2 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.p1 {
+  background-color: rgb(121, 120, 120);
+}
+
+.s3 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.me ul li a {
+  color: aliceblue;
+  text-decoration: none;
+}
